@@ -17,4 +17,8 @@
   body {
     @apply font-[Inter]
   }
+
+  li {
+    @apply p-4 text-sm
+  }
 }
