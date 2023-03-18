@@ -25,4 +25,8 @@
   button {
     @apply px-4 py-2 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primery-light)] text-white
   }
+
+  h2{
+    @apply text-xl font-bold
+  }
 }
