@@ -10,11 +10,11 @@ const TopNav = () => {
       <h1>TRAVELER'S OASIS</h1>
       </div>
       <div className="flex">
-        <div>
+        <div className="hidden md:flex item-center px-6">
             <AiOutlineClockCircle />
             <p>9AM - 5AM</p>
         </div>
-        <div>
+        <div className="hidden md:flex item-center px-6">
             <AiFillPhone />
             <p>1-777-718-1234</p>
         </div>
