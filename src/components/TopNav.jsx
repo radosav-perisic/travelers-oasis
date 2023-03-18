@@ -13,6 +13,10 @@ const TopNav = () => {
             <AiOutlineClockCircle />
             <p>9AM - 5AM</p>
         </div>
+        <div>
+            <AiFillPhone />
+            <p>1-777-718-1234</p>
+        </div>
       </div>
     </div>
   );
