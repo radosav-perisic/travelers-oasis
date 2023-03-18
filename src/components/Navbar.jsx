@@ -25,7 +25,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div>
+      <div className="flex justify-between">
         <FaFacebookF className="mx-4" />
         <FaGooglePlusG className="mx-4" />
         <FaInstagram className="mx-4" />
