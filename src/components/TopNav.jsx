@@ -4,7 +4,7 @@ import { BsChatSquareDots } from "react-icons/bs";
 
 const TopNav = () => {
   return (
-    <div>
+    <div className="flex justify-between items-center px-4 py-2">
       <div><BsChatSquareDots />
       <h1>TRAVELER'S OASIS</h1>
       </div>
