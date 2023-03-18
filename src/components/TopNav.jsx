@@ -8,6 +8,12 @@ const TopNav = () => {
       <div><BsChatSquareDots />
       <h1>TRAVELER'S OASIS</h1>
       </div>
+      <div>
+        <div>
+            <AiOutlineClockCircle />
+            <p>9AM - 5AM</p>
+        </div>
+      </div>
     </div>
   );
 };
