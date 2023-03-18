@@ -2,10 +2,11 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="w-full h-[90vh]">
       <img
         src="https://static.vecteezy.com/system/resources/previews/012/865/509/large_2x/maldives-aerial-island-landscape-tropical-beach-coast-from-drone-exotic-nature-palm-trees-over-white-sand-close-to-coral-reef-blue-sea-lagoon-summer-and-travel-vacation-concept-beautiful-nature-photo.jpg"
         alt="/"
+        className="w-full h-full object-cover"
       />
       <div>
         <div>
