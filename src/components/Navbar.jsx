@@ -1,32 +1,59 @@
-import { useState, useEffect } from 'react'
-import {FaBars,  FaFacebookF, FaTwitter, FaGooglePlusG, FaInstagram } from 'react-icons/fa'
-import { BsChatSquareDots } from 'react-icons/bs'
+import { useState, useEffect } from "react";
+import {
+  FaBars,
+  FaFacebookF,
+  FaTwitter,
+  FaGooglePlusG,
+  FaInstagram,
+} from "react-icons/fa";
+import { BsChatSquareDots } from "react-icons/bs";
 
 const Navbar = () => {
   return (
     <div>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="#gallery">Gallery</a>
+        </li>
+        <li>
+          <a href="#deals">Deals</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <div>
+        <FaFacebookF className="mx-4" />
+        <FaGooglePlusG className="mx-4" />
+        <FaInstagram className="mx-4" />
+        <FaTwitter className="mx-4" />
+      </div>
+      {/* Hamburger*/}
+      <div>
+        <FaBars />
+      </div>
+      {/*Mobile Menu*/}
+      <div>
         <ul>
             <li>
-                <a href='/'>Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-                <a href='#gallery'>Gallery</a>
+              <a href="#gallery">Gallery</a>
             </li>
             <li>
-                <a href='#deals'>Deals</a>
+              <a href="#deals">Deals</a>
             </li>
             <li>
-                <a href='#contact'>Contact</a>
+              <a href="#contact">Contact</a>
             </li>
         </ul>
-        <div>
-            <FaFacebookF className='mx-4'/>
-            <FaGooglePlusG className='mx-4'/>
-            <FaInstagram className='mx-4'/>
-            <FaTwitter className='mx-4'/>
-        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
