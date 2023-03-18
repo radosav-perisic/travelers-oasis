@@ -36,7 +36,7 @@ const Navbar = () => {
         <FaBars size={20} className='mr-4 cursor-pointer'/>
       </div>
       {/*Mobile Menu*/}
-      <div>
+      <div className={'overflow-y-hidden md:hidden w-full ease-in duration-300 absolute text-gray-300 left-0 top-0 h-screen bg-black/90 px-4 py-7 flex flex-col'}>
         <ul>
             <li>
               <a href="/">Home</a>
