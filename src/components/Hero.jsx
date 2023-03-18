@@ -8,8 +8,8 @@ const Hero = () => {
         alt="/"
         className="w-full h-full object-cover"
       />
-      <div>
-        <div>
+      <div className="max-w-[1140px] m-auto">
+        <div className="absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col text-white p-4">
           <h1>Find Your Special Trip</h1>
           <h2>With Traveler's Oasis</h2>
           <p>
