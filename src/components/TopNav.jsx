@@ -15,7 +15,7 @@ const TopNav = () => {
             <p>9AM - 5AM</p>
         </div>
         <div className="hidden md:flex item-center px-6">
-            <AiFillPhone />
+            <AiFillPhone  size={20} className='mr-2 text-[var(--primary-dark)]'/>
             <p>1-777-718-1234</p>
         </div>
         <button>Get A Free Quote</button>
