@@ -9,7 +9,7 @@ const TopNav = () => {
         <BsChatSquareDots size={30} className='text-[var(--primary-dark)] mr-2'/>
       <h1>TRAVELER'S OASIS</h1>
       </div>
-      <div>
+      <div className="flex">
         <div>
             <AiOutlineClockCircle />
             <p>9AM - 5AM</p>
