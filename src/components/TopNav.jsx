@@ -12,11 +12,11 @@ const TopNav = () => {
       <div className="flex">
         <div className="hidden md:flex item-center px-6">
             <AiOutlineClockCircle />
-            <p>9AM - 5AM</p>
+            <p className="text-sm text-gray-700">9AM - 5AM</p>
         </div>
         <div className="hidden md:flex item-center px-6">
             <AiFillPhone  size={20} className='mr-2 text-[var(--primary-dark)]'/>
-            <p>1-777-718-1234</p>
+            <p className="text-sm text-gray-700">1-777-718-1234</p>
         </div>
         <button>Get A Free Quote</button>
       </div>
