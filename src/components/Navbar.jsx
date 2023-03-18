@@ -19,6 +19,12 @@ const Navbar = () => {
                 <a href='#contact'>Contact</a>
             </li>
         </ul>
+        <div>
+            <FaFacebookF className='mx-4'/>
+            <FaGooglePlusG className='mx-4'/>
+            <FaInstagram className='mx-4'/>
+            <FaTwitter className='mx-4'/>
+        </div>
     </div>
   )
 }
