@@ -8,3 +8,9 @@
   --primary-dark: #0c8c6e;
   --primary-light: #42e4be;
 }
+
+@layer base {
+  html {
+    @apply scroll-smooth
+  }
+}
