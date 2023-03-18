@@ -17,6 +17,7 @@ const TopNav = () => {
             <AiFillPhone />
             <p>1-777-718-1234</p>
         </div>
+        <button>Get A Free Quote</button>
       </div>
     </div>
   );
