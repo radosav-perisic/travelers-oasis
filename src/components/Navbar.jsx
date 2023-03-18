@@ -32,8 +32,8 @@ const Navbar = () => {
         <FaTwitter className="mx-4" />
       </div>
       {/* Hamburger*/}
-      <div>
-        <FaBars />
+      <div className="sm:hidden z-10">
+        <FaBars size={20} className='mr-4 cursor-pointer'/>
       </div>
       {/*Mobile Menu*/}
       <div>
