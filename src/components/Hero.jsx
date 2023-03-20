@@ -1,5 +1,4 @@
 import React from "react";
-import beach from '../assets/beach.jpg'
 
 const Hero = () => {
   return (
