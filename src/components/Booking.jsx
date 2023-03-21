@@ -13,6 +13,16 @@ const Booking = () => {
                   <option>Greece</option>
                 </select>
             </div>
+            <div>
+              <div>
+              <label>Check In</label>
+              <input type='date'/>
+              </div>
+              <div>
+              <label>Check Out</label>
+              <input type='date'/>
+              </div>
+              </div>
         </form>
     </div>
   )
