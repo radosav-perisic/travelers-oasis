@@ -5,6 +5,8 @@ import Activities from "./components/Activities"
 import Booking from "./components/Booking"
 import Gallery from "./components/Gallery"
 import ContactForm from "./components/ContactForm"
+import Footer from "./components/Footer"
+
 
 function App() {
 return (
@@ -16,6 +18,7 @@ return (
     <Booking />
     <Gallery />
     <ContactForm />
+    <Footer />
   </div>
 )
 }
