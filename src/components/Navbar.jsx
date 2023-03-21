@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
   FaBars,
   FaFacebookF,
@@ -6,7 +6,7 @@ import {
   FaGooglePlusG,
   FaInstagram,
 } from "react-icons/fa";
-import { BsChatSquareDots } from "react-icons/bs";
+
 
 const Navbar = () => {
  const [nav, setNav] = useState(false)
@@ -18,24 +18,24 @@ const Navbar = () => {
   return (
     <div className="w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white bg-gray-700/80">
       <ul className="hidden sm:flex px-4">
-        <li>
+        <li className="text-lg">
           <a href="/">Home</a>
         </li>
-        <li>
+        <li className="text-lg">
           <a href="#gallery">Gallery</a>
         </li>
-        <li>
+        <li className="text-lg">
           <a href="#deals">Deals</a>
         </li>
-        <li>
+        <li className="text-lg">
           <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="flex justify-between">
-        <FaFacebookF className="mx-4" />
-        <FaGooglePlusG className="mx-4" />
-        <FaInstagram className="mx-4" />
-        <FaTwitter className="mx-4" />
+        <FaFacebookF className="mx-4" size={25}/>
+        <FaGooglePlusG className="mx-4"size={25} />
+        <FaInstagram className="mx-4" size={25}/>
+        <FaTwitter className="mx-4" size={25}/>
       </div>
       {/* Hamburger*/}
       <div onClick={navHandler} className="sm:hidden z-10">
