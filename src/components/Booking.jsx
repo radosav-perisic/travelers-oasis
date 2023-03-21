@@ -13,8 +13,8 @@ const Booking = () => {
                   <option>Greece</option>
                 </select>
             </div>
-            <div>
-              <div>
+            <div className='flex w-full'>
+              <div className='flex flex-col w-full lg:max-w-[250px] my-2 p-2'>
               <label>Check In</label>
               <input type='date'/>
               </div>
