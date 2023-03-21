@@ -23,6 +23,10 @@ const Booking = () => {
               <input type='date'/>
               </div>
               </div>
+              <div>
+                <label>Search</label>
+                <button>Reates & Availabilities</button>
+              </div>
         </form>
     </div>
   )
