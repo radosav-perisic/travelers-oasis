@@ -2,7 +2,7 @@ import React from 'react'
 
 const Gallery = () => {
   return (
-    <div id='gallery'>
+    <div id='gallery' className='max-w-[1140] m-auto w-full px-4 py-16'>
         <h2>Gallery </h2>
         <div>
             <div>
