@@ -16,11 +16,11 @@ const Booking = () => {
             <div className='flex w-full'>
               <div className='flex flex-col w-full lg:max-w-[250px] my-2 p-2'>
               <label>Check In</label>
-              <input type='date'/>
+              <input className='border rounded-md p-2' type='date'/>
               </div>
               <div>
               <label>Check Out</label>
-              <input type='date'/>
+              <input className='border rounded-md p-2' type='date'/>
               </div>
               </div>
               <div>
