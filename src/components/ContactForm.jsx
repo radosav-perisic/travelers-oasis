@@ -3,7 +3,7 @@ import React from 'react'
 const ContactForm = () => {
   return (
     <div id='contact' className='max-w-[1140px] m-auto w-full p-4 py-16'>
-        <h2>Contact Us Anytime</h2>
+        <h2 className='text-center text-gray-600'>Contact Us Anytime</h2>
         <p>We're just a message away!</p>
         <div>
             <img src='https://images.pexels.com/photos/3580532/pexels-photo-3580532.jpeg' alt='/' />
