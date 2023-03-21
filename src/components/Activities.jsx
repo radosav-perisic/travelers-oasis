@@ -10,15 +10,15 @@ const Activities = () => {
     <div className="max-w-[1140px] m-auto w-full md:flex mt-[-75px]">
       <div className="relative p-4 ">
         <h3 className="z-10 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold">Resorts</h3>
-        <img src={resort1} alt="/"/>
+        <img className="w-full h-full object-cover relative border-4 border-white shadow-lg" src={resort1} alt="/"/>
       </div>
       <div className="relative p-4 ">
         <h3 className="z-10 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold">Resorts</h3>
-        <img src={resort2} alt="/" />
+        <img className="w-full h-full object-cover relative border-4 border-white shadow-lg" src={resort2} alt="/" />
       </div>
       <div className="relative p-4 ">
         <h3 className="z-10 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold">Resorts</h3>
-        <img src={resort3} alt="/" />
+        <img className="w-full h-full object-cover relative border-4 border-white shadow-lg" src={resort3} alt="/" />
       </div>
     </div>
   );
