@@ -8,16 +8,16 @@ import resort3 from '../assets/resort3.jpg'
 const Activities = () => {
   return (  
     <div className="max-w-[1140px] m-auto w-full md:flex mt-[-75px]">
-      <div>
-        <h3>Resorts</h3>
+      <div className="relative p-4 ">
+        <h3 className="z-10 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold">Resorts</h3>
         <img src={resort1} alt="/"/>
       </div>
-      <div>
-        <h3>Resorts</h3>
+      <div className="relative p-4 ">
+        <h3 className="z-10 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold">Resorts</h3>
         <img src={resort2} alt="/" />
       </div>
-      <div>
-        <h3>Resorts</h3>
+      <div className="relative p-4 ">
+        <h3 className="z-10 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold">Resorts</h3>
         <img src={resort3} alt="/" />
       </div>
     </div>
