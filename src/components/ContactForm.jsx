@@ -15,7 +15,7 @@ const ContactForm = () => {
         />
       </div>
       <form>
-        <div>
+        <div className="grid grid-cols-2">
           <input type="text" placeholder="First" />
           <input type="text" placeholder="Last" />
           <input type="email" placeholder="Email" />
