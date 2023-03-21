@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div id='contact'>
+    <div id='contact' className='max-w-[1140px] m-auto w-full p-4 py-16'>
         <h2>Contact Us Anytime</h2>
         <p>We're just a message away!</p>
         <div>
