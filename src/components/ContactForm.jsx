@@ -22,7 +22,7 @@ const ContactForm = () => {
           <input className="border m-2 p-2" type="tel" placeholder="Phone" />
           <input className="border col-span-2 p-2 m-2" type="text" placeholder="Address" />
           <textarea className="border col-span-2 m-2 p-2" rows="10" cols="30"></textarea>
-          <button>Submit</button>
+          <button className="col-span-2 m-2">Submit</button>
         </div>
       </form>
     </div>
