@@ -23,9 +23,9 @@ const Booking = () => {
               <input className='border rounded-md p-2' type='date'/>
               </div>
               </div>
-              <div>
+              <div className='flex flex-col my-2 p-2 w-full'>
                 <label>Search</label>
-                <button>Reates & Availabilities</button>
+                <button className='w-full'>Reates & Availabilities</button>
               </div>
         </form>
     </div>
