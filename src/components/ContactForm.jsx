@@ -5,7 +5,7 @@ const ContactForm = () => {
     <div id='contact' className='max-w-[1140px] m-auto w-full p-4 py-16'>
         <h2 className='text-center text-gray-600'>Contact Us Anytime</h2>
         <p className='text-center text-gray-600 py-2'>We're just a message away!</p>
-        <div>
+        <div className='grid md:grid-cols-2'>
             <img src='https://images.pexels.com/photos/3580532/pexels-photo-3580532.jpeg' alt='/' />
         </div>
         <form>
