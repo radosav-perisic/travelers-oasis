@@ -6,7 +6,7 @@ const Booking = () => {
         <form className='lg:justify-between w-full items-center'>
             <div className='flex flex-col my-2 py-2'>
                 <label>Destination</label>
-                <select>
+                <select className='lg:w-[300px] md:w-full border rounded-md p-2'>
                   <option>Indonesia</option>
                   <option>Thailand</option>
                   <option>Hawaii</option>
