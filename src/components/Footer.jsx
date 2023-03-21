@@ -3,11 +3,12 @@ import { BsChatSquareDots } from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <div>
-        <div>
-            Footer
+    <div className='max-w-[1140px] w-full py-8 m-auto border-t-4'>
+        <div className='flex items-center m-auto justify-center'>
+            <BsChatSquareDots size={35} className='text-[var-(--primary-dark)] mr-2'/>
+            <h1>TRAVELER'S OASIS</h1>
         </div>
-    </div>
+     </div>
   )
 }
 
