@@ -33,6 +33,7 @@ const ContactForm = () => {
               className="border col-span-2 m-2 p-2"
               rows="10"
               cols="30"
+              placeholder="Tell us about your travel plans!"
             ></textarea>
             <button className="col-span-2 m-2">Submit</button>
           </div>
